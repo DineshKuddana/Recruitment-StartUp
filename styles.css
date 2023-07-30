@@ -1,0 +1,286 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section-heading {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333333;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(45deg, #007bff, #009688, #ff5722);
+    background-size: 200% 200%;
+    animation: gradientAnimation 8s ease infinite;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.btn-primary {
+    background-color: #fff;
+    color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Features Section */
+.features {
+    padding: 80px 0;
+    background-color:seashell;
+}
+
+.feature-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature-item i {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.feature-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    color: #777;
+}
+
+/* How It Works Section */
+.how-it-works {
+    padding: 80px 0;
+    background-color:blanchedalmond;
+}
+
+.step {
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.step:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.step i {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.step h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.step p {
+    color: #777;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 80px 0;
+    background-color: aliceblue;
+}
+
+.testimonial-item {
+    padding: 20px;
+    border: 1px solid #284e7a;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s;
+}
+
+.testimonial-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-item i {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.testimonial-item p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.testimonial-item h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.testimonial-item p:last-child {
+    font-weight: bold;
+}
+
+/* Contact Section */
+.contact {
+    padding: 80px 0;
+    background-color: #89dce679;
+}
+
+.contact h2.section-heading {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.contact p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: #007bff;
+}
+
+.contact .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact form .form-control {
+    border: 1px solid #ccc;
+    padding: 12px;
+    border-radius: 5px;
+    width: 100%;
+    transition: border-color 0.3s;
+}
+
+.contact form .form-control:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.contact form textarea.form-control {
+    resize: vertical;
+}
+
+.contact form button.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact form button.btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+    text-align: center;
+}
+
+.footer .social-icons {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.footer .social-icons li {
+    margin-right: 10px;
+}
+
+.footer .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+    color: #007bff;
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+    .footer .social-icons {
+        justify-content: center;
+    }
+}
